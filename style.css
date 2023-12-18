@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(25, 25, 25);
+    color: rgb(255, 253, 253);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.crud{
+
+   
+    width: 80%;
+    margin: auto ;
+}
+.head{
+    /* border: 1px solid red; */
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+.head h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+.head p{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+/* -----------------------------------end css head----------------------------- */
+
+
+
+/* -----------------------------------start css inputs-------------------------- */
+
+input{
+    
+    width: 100%;
+    height: 35px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    background: #111;
+    color: rgb(255, 253, 253);
+    margin: 4px 0;
+    padding: 4px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: all .8s; 
+}
+input:focus{
+    background: #000000;
+    transform: scale(1.05);
+    letter-spacing: 2px;
+}
+
+.price input{
+    width: 20%;
+}
+#total{
+    background: #a80510;
+    padding: 10px 4px;
+    border-radius: 6px;
+
+}
+#total::before{
+    content: 'Total: ';
+}
+button{
+    border: #ff0011 2px solid;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: #ffe8d6;
+    margin-top: 8px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    letter-spacing: 1px;
+transition: all .6s;
+}
+button:hover{
+    transform: scale(1.02);
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: all .6s; 
+}
+#btndelet{
+      
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: #ffe8d6;
+    margin-top: 0px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: all .6s;
+}
+#btndelet:hover{
+    transform: scale(1.02);
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: all .6s; 
+}
+/* -----------------------------------end css inputs-------------------------- */
+.outputs{
+    /* border: 1px solid red; */
+    margin: 9px 0px;
+}
+
+
+.btnSearch{
+    display: flex;
+    justify-content: space-between;
+}
+.btnSearch button {
+    width: 45%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    
+}
+table th{
+    text-transform: uppercase;
+}
+th,td{
+    padding: 5px;
+}
+table tr td button:hover{
+    letter-spacing: 2px;
+    transition: all .3s; 
+}
